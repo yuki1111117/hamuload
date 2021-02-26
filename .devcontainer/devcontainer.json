@@ -15,7 +15,12 @@
 
 	// Add the IDs of extensions you want installed when the container is created.
 	"extensions": [
-		"dbaeumer.vscode-eslint"
+		"ms-azuretools.vscode-docker",
+		"dbaeumer.vscode-eslint",
+		"donjayamanne.githistory",
+		"eamodio.gitlens",
+		"esbenp.prettier-vscode",
+		"oderwat.indent-rainbow"
 	],
 
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
