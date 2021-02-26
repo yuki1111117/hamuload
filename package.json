@@ -1,0 +1,24 @@
+{
+  "name": "hamuload",
+  "version": "1.0.0",
+  "description": "npm install express",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node backend/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yuki1111117/hamuload.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yuki1111117/hamuload/issues"
+  },
+  "homepage": "https://github.com/yuki1111117/hamuload#readme"
+}
