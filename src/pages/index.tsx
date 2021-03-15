@@ -13,7 +13,8 @@ const Home: NextPage = () => {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Welcome sfffdto <a href="https://nextjs.org">Next.js!</a>
+          Welcome to{' '}
+          <a href="https://github.com/yuki1111117/hamuload">HamuLoad!</a>
         </h1>
 
         <p className={styles.description}>
