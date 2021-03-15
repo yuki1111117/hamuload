@@ -33,7 +33,6 @@ yarn-error.log*
 # vercel
 .vercel
 
-
 # PWA 関連ファイルの自動生成ファイルを追加
 **/public/precache.*.*.js
 **/public/sw.js
@@ -43,3 +42,6 @@ yarn-error.log*
 **/public/sw.js.map
 **/public/workbox-*.js.map
 **/public/worker-*.js.map
+
+# ESLint のキャッシュファイルを追加
+.eslintcache
