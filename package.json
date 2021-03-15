@@ -1,25 +1,15 @@
 {
-  "name": "hamuload",
-  "version": "1.0.0",
-  "description": "npm install express",
-  "main": "index.js",
-  "dependencies": {
-    "express": "^4.17.1"
-  },
-  "devDependencies": {},
+  "name": "hamu",
+  "version": "0.1.0",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node backend/index.js",
-    "heroku-postbuild": "cd frontend && npm install && npm run build"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/yuki1111117/hamuload.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/yuki1111117/hamuload/issues"
-  },
-  "homepage": "https://github.com/yuki1111117/hamuload#readme"
+  "dependencies": {
+    "next": "10.0.8",
+    "react": "17.0.1",
+    "react-dom": "17.0.1"
+  }
 }
