@@ -8,7 +8,8 @@ interface MyDocumentInterface {
 }
 
 class MyDocument extends Document implements MyDocumentInterface {
-  url = 'https://example.com'
+  // 環境変数を追加
+  url = process.env.NEXT_PUBLIC_SITE_URL
   title = 'Demo Next.js'
   description = 'Demo of Next.js'
 
