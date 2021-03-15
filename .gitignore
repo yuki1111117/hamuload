@@ -51,3 +51,6 @@ storybook-static
 
 # Storyshots の差分ディレクトリを追加
 src/storyshots/__snapshots__/__diff_output__
+
+# firebase
+.firebase

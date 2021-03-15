@@ -12,7 +12,8 @@
     "build-storybook": "build-storybook",
     "storyshots": "jest src/storybook.test.ts",
     "puppeteer-storyshots": "jest storyshots/puppeteer-storyshots*.test.ts",
-    "lint-staged": "lint-staged"
+    "lint-staged": "lint-staged",
+    "export": "next export"
   },
   "dependencies": {
     "next": "10.0.8",
